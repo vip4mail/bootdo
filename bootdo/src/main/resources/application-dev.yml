@@ -8,9 +8,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/bootdo?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://119.29.6.225:3306/jin10?useUnicode=true&characterEncoding=utf8
     username: root
-    password: root
+    password: s19830103
     initialSize: 1
     minIdle: 3
     maxActive: 20
@@ -34,7 +34,7 @@ spring:
     # 合并多个DruidDataSource的监控数据
     #useGlobalDataSourceStat: true
   redis:
-    host: localhost
+    host: 192.168.1.10
     port: 6379
     password:
     # 连接超时时间（毫秒）
